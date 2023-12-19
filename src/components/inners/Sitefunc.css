@@ -1,0 +1,43 @@
+body {
+    margin : 0;
+    overflow-y : hidden;
+}
+
+.sitefunc{
+    height: 100vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nanum Gothic";
+}
+
+.site1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #9ef7d1;
+    position: relative;
+    top: 270px;
+    right: 500px;
+}
+
+.site2 {
+    text-align: left;
+    font-size: 23px;
+    position: relative;
+    top: 300px;
+    right: 286px;
+}
+
+.bg-3 {
+    background-color: white;
+}
+
+.chatpic {
+    width: 500px;
+    object-fit: cover;
+    position: relative;
+    left: 300px;
+}
+
+.sitepic {
+}

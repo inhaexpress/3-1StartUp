@@ -1,0 +1,23 @@
+.contents {
+    font-size: 25px;
+    font-family: "Nanum Gothic";
+    font-weight: bold;
+}
+
+.mainlogo {
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+
+.sidebarlist {
+    position: fixed;
+    top: 280px;
+    left: 80px;
+    list-style: none;
+}
+
+.profileicon {
+    width: 30px;
+    transform: translate3d(-10px, 7px, 0px);
+}

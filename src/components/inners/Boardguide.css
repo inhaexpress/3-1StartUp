@@ -1,0 +1,43 @@
+body {
+    margin : 0;
+    overflow-y : hidden;
+    overflow-x: hidden;
+}
+
+.guidemain{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: "Nanum Gothic";
+}
+
+.boardimg {
+    width: 550px;
+}
+
+.boardpic {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    border: 1px solid black;
+}
+
+.guidetitle {
+    position: relative;
+    bottom: 300px;
+    right: 500px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #9ef7d1;
+}
+
+.guidecontent {
+    position: relative;
+    bottom: 30px;
+    right: 60px;
+    text-align: left;
+    font-size: 23px;
+}
+

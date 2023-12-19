@@ -1,0 +1,40 @@
+.listtable {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    margin : 20px 10px;
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+.listtable th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+.listtable td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+
+.boardtitle {
+    position: relative;
+    right: 585px;
+    top: 50px;
+}
+
+.listbutton {
+    position: relative;
+    top: 50px;
+    left: 600px;
+}
+
+.boardcontent {
+    position: relative;
+    top: 50px;
+    right: 480px;
+}

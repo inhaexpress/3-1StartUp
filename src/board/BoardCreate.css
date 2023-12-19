@@ -1,0 +1,39 @@
+.createtable {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    margin : 20px 10px;
+    position: relative;
+    left: 440px;
+    top: 100px;
+}
+.createtable th {
+    width: 30px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+.createtable td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+
+.textareacontents {
+    width: 500px;
+    height: 300px;
+    resize: none;
+}
+
+.createtitle {
+    position: relative;
+    right: 220px;
+    top: 100px;
+}
+.createbutton {
+    position: relative;
+    left: 230px;
+    top: 100px;
+}

@@ -1,0 +1,126 @@
+.shrek-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://i.imgur.com/voG63Ku.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.shrek-background-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+}
+
+.shrek-history {
+    max-height: calc(100vh - 200px);
+    overflow: auto;
+    padding: 20px;
+}
+
+.shrek-chat-log,
+.shrek-user-chat-log {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; /* Set the text color to white */
+}
+
+.shrek-chat-bubble {
+    font-size: 150%; /* Adjust the font size here */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Add black outline */
+}
+
+.shrek-chat-bubble .shrek-icon {
+    display: inline-block;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.shrek-chat-bubble .bubble-text {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.shrek-chat-log p {
+    margin: 0;
+}
+
+.shrek-input-container {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100vw;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+}
+
+.shrek-input-text {
+    flex-grow: 2;
+    flex-shrink: 0;
+    /* Prevent the element from shrinking */
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 10px; /* Change to 10px for a more square shape */
+    border: 2px solid #333333; /* Add black border */
+    font-size: 16px;
+    margin-right: 20px;
+    outline: none;
+    color: black; /* Set the text color to black */
+    background-color: #f5f5f5; /* Set the default background color */
+}
+
+.shrek-input-text:hover {
+    background-color: #ebebeb; /* Slightly darker color on hover */
+}
+
+
+.shrek-input-button {
+    padding: 15px 25px;
+    border-radius: 10px; /* Change to 10px for a more square shape */
+    border: 2px solid #333333; /* Add black border */
+    background-color: black;
+    color: white; /* Set the text color to white */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.shrek-input-button:hover {
+    background-color: #333333; /* Dark gray color close to black */
+}
+
+.shrek-input-text:focus {
+    border-color: black; /* Set the focus outline color to black */
+}
+
+.shrek-user-chat-log {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.shrek-loading-message {
+    font-size: 150%;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

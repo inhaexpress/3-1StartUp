@@ -1,0 +1,39 @@
+header {
+    font-size: 15px;
+    height: 50px;
+    position: sticky;
+    font-family: "Nanum Gothic";
+    font-weight: bold;
+}
+
+.logo{
+    float: left;
+    display: inline-block;
+
+}
+
+.lists{
+    list-style: none;
+    float: right;
+    display: inline-block;
+
+}
+
+li{
+    float: left;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:  black;
+}
+
+a:hover{
+    color: #61dafb;
+}
+
+.maf {
+    height: 50px;
+    position: fixed;
+}
